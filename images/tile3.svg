@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="284" height="284" viewBox="0 0 284 284">
+  <defs>
+    <filter id="Rectangle_349" x="0" y="0" width="284" height="284" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="17.5" result="blur"/>
+      <feFlood flood-opacity="0.38"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_4_1" data-name="Component 4 – 1" transform="translate(52.5 49.5)">
+    <g transform="matrix(1, 0, 0, 1, -52.5, -49.5)" filter="url(#Rectangle_349)">
+      <path id="Rectangle_349-2" data-name="Rectangle 349" d="M60,0H179a0,0,0,0,1,0,0V119a60,60,0,0,1-60,60H0a0,0,0,0,1,0,0V60A60,60,0,0,1,60,0Z" transform="translate(52.5 49.5)" fill="#ff491a"/>
+    </g>
+    <text id="Grow_as_an" data-name="Grow as an" transform="translate(38 90)" fill="#fff" font-size="16" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">GROW AS AN</tspan></text>
+    <text id="Entrepreneur" transform="translate(8 114)" fill="#fff" font-size="22" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">ENTREPRENEUR</tspan></text>
+  </g>
+</svg>
