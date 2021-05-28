@@ -58,3 +58,138 @@ body {
 .align_right {
   flex-grow: 1;
 }
+
+.signIn {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  justify-content: center;
+  float: right;
+  margin-right: 20%;
+}
+
+.nav_items {
+  text-decoration: none;
+  color: #000;
+  padding: 2px 0 0 0;
+}
+
+.select {
+  color: #ff2c49;
+}
+
+.nav_items:hover {
+  color: #ff2c49;
+}
+
+.sign_in {
+  /*button*/
+  display: inline-block;
+  background: #fff;
+  color: #ff2c49;
+  margin: 0 5px;
+  padding: 8px 35px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  border-radius: 25px;
+}
+
+.hamburger {
+  display: inline-block;
+  color: #fff;
+  /* margin: 0 25px; */
+  margin-left: 12px;
+  padding: 0.5rem 0rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* hero_container */
+.container {
+  max-width: auto;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.hero {
+  background-color: #ff2c49;
+  height: 800px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 450px 600px 240px;
+  grid-gap: 0.5rem;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.hero_text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  margin: 225px 0;
+}
+
+.hero_text h3,
+.hero_text h1,
+.hero_text p {
+  /* vertical-align: middle; */
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-left: 45px;
+  align-self: start;
+}
+
+.hero_text h3 {
+  font-size: 27px;
+  font-weight: 600; /*semibold*/
+  margin-bottom: 20px;
+  line-height: 90%;
+}
+
+.hero_text h1 {
+  font-size: 65px;
+  font-weight: bold;
+  vertical-align: middle;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  align-self: start;
+  line-height: 90%;
+}
+
+.hero_text p {
+  font-size: 10px;
+  font-weight: 500; /*medium */
+}
+
+.hero_text h3,
+.hero_text h1,
+.hero_text p {
+  align-items: center;
+}
+
+.hero_image {
+  display: flex;
+  /* align-items: center; */
+  margin: 20px 0 0 0;
+  padding: -145px 0 0 0;
+}
+
+.hero_image .man {
+  max-height: 700px;
+  max-width: 353px;
+}
+
+.hero_image .women {
+  max-width: 336px;
+  max-height: 614px;
+  margin-left: -25px;
+  padding: 20px 0 0 0;
+  margin-top: 50px;
+}
